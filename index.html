@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinku Tattoo's Studio Sambalpur — Premium Tattoo Art | Ink Beyond Limits</title>
+  <meta name="description" content="Rinku Tattoo's Studio Sambalpur — Sambalpur's premium tattoo destination. 4.9★ rated with 396+ reviews. Custom tattoos, blackwork, geometric, sleeve, tribal & more. Book your session today.">
+  <meta name="keywords" content="tattoo studio Sambalpur, Rinku Tattoo, best tattoo artist Odisha, custom tattoo design, blackwork tattoo, geometric tattoo, sleeve tattoo, tribal tattoo">
+  <meta name="author" content="Rinku Tattoo's Studio">
+  <meta property="og:title" content="Rinku Tattoo's Studio Sambalpur — Ink Beyond Limits">
+  <meta property="og:description" content="Sambalpur's premium tattoo destination. 4.9★ rated with 396+ reviews.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖤</text></svg>">
+</head>
+<body>
+  <!-- ═══ Loading Screen ═══ -->
+  <div class="loader" id="loader">
+    <div class="loader-logo">RINKU TATTOO'S</div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  </div>
+
+  <!-- ═══ Custom Cursor ═══ -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══ Grain Overlay ═══ -->
+  <div class="grain-overlay"></div>
+
+  <!-- ═══ Particles ═══ -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ═══ Navigation ═══ -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-brand">
+      <span class="brand-dot"></span>
+      Rinku Tattoo's
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#artist">Artist</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#booking" class="nav-cta">Book Session</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- ═══ Hero Section ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero-bg.png" alt="Premium tattoo artwork in dark studio" loading="eager" fetchpriority="high">
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">Sambalpur's Premium Tattoo Studio</div>
+      <h1 class="hero-title reveal">Ink Beyond<br>Limits.</h1>
+      <p class="hero-subtitle reveal">Your Story. Your Skin. Your Legacy.</p>
+      <div class="hero-buttons reveal">
+        <a href="#booking" class="btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Book Session
+        </a>
+        <a href="#gallery" class="btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          Explore Art
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+  <!-- ═══ About Section ═══ -->
+  <section class="section about" id="about">
+    <div class="section-header reveal">
+      <span class="section-tag">About Us</span>
+      <h2 class="section-title">The Studio</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-image reveal-left">
+        <img src="images/studio.png" alt="Rinku Tattoo Studio interior with neon lighting" loading="lazy">
+      </div>
+      <div class="about-text reveal-right">
+        <h3>Sambalpur's Premier<br>Tattoo Destination</h3>
+        <p>Welcome to Rinku Tattoo's Studio — where art meets skin. Located in the heart of Sambalpur, we've built a reputation as Odisha's most trusted tattoo studio, delivering world-class body art with precision, passion, and unmatched artistry.</p>
+        <p>Our studio combines the raw energy of tattoo culture with a luxurious, hygienic environment. Every piece we create is a collaboration — your vision, our expertise — resulting in tattoos that tell stories, mark milestones, and become part of who you are.</p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">4.9</div>
+            <div class="stat-label">Google Rating</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">396+</div>
+            <div class="stat-label">Reviews</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Years Exp</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Gallery Section ═══ -->
+  <section class="section gallery" id="gallery">
+    <div class="section-header reveal">
+      <span class="section-tag">Portfolio</span>
+      <h2 class="section-title">Our Art</h2>
+      <div class="section-line"></div>
+      <p class="section-desc">Each tattoo is a unique masterpiece. Browse our collection of work across styles and categories.</p>
+    </div>
+    <div class="gallery-filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="blackwork">Blackwork</button>
+      <button class="filter-btn" data-filter="tribal">Tribal</button>
+      <button class="filter-btn" data-filter="sleeve">Sleeve</button>
+      <button class="filter-btn" data-filter="minimal">Minimal</button>
+      <button class="filter-btn" data-filter="portrait">Portrait</button>
+      <button class="filter-btn" data-filter="geometric">Geometric</button>
+    </div>
+    <div class="masonry-grid" id="galleryGrid">
+      <div class="gallery-item reveal" data-category="portrait">
+        <img src="images/gallery-3d.png" alt="Hyper-realistic 3D lion tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>3D Realism</span></div>
+      </div>
+      <div class="gallery-item reveal" data-category="geometric">
+        <img src="images/gallery-geometric.png" alt="Intricate geometric mandala tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>Geometric</span></div>
+      </div>
+      <div class="gallery-item reveal" data-category="blackwork">
+        <img src="images/gallery-blackwork.png" alt="Bold solid blackwork tribal tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>Blackwork</span></div>
+      </div>
+      <div class="gallery-item reveal" data-category="sleeve">
+        <img src="images/gallery-sleeve.png" alt="Japanese style full sleeve tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>Sleeve</span></div>
+      </div>
+      <div class="gallery-item reveal" data-category="minimal">
+        <img src="images/gallery-minimal.png" alt="Delicate minimalist fine line tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>Minimal</span></div>
+      </div>
+      <div class="gallery-item reveal" data-category="tribal">
+        <img src="images/gallery-tribal.png" alt="Bold Polynesian tribal tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>Tribal</span></div>
+      </div>
+      <div class="gallery-item reveal" data-category="portrait">
+        <img src="images/gallery-portrait.png" alt="Hyper-realistic portrait tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>Portrait</span></div>
+      </div>
+      <div class="gallery-item reveal" data-category="geometric">
+        <img src="images/gallery-dotwork.png" alt="Sacred geometry dotwork tattoo" loading="lazy">
+        <div class="gallery-overlay"><span>Dotwork</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Parallax Divider ═══ -->
+  <div class="parallax-divider">
+    <img src="images/hero-bg.png" alt="Tattoo art background" loading="lazy" id="parallaxImg">
+    <div class="parallax-text reveal">
+      <h2>Art Is Permanent</h2>
+      <p>Make it count</p>
+    </div>
+  </div>
+
+  <!-- ═══ Artist Section ═══ -->
+  <section class="section artist" id="artist">
+    <div class="section-header reveal">
+      <span class="section-tag">The Artist</span>
+      <h2 class="section-title">Meet The Creator</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="artist-grid">
+      <div class="artist-image reveal-left">
+        <img src="images/artist.png" alt="Rinku - Master Tattoo Artist at work" loading="lazy">
+      </div>
+      <div class="artist-info reveal-right">
+        <h3>Rinku</h3>
+        <div class="artist-role">Master Tattoo Artist & Founder</div>
+        <p>With over 8 years of professional tattooing experience, Rinku has mastered the art of transforming skin into canvas. Specializing in 3D realism, geometric mandalas, and custom designs, every session is a journey of artistic expression.</p>
+        <p>Trained in multiple tattoo styles from traditional blackwork to contemporary fine line, Rinku brings a unique fusion of precision and creativity to every piece. His work has earned 396+ five-star reviews and the trust of thousands of clients.</p>
+        <div class="artist-social">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/919937509925" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.905L0 24l6.335-1.521A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75c-1.97 0-3.839-.517-5.47-1.482l-.392-.233-3.758.903.947-3.635-.256-.406A9.706 9.706 0 0 1 2.25 12 9.75 9.75 0 1 1 12 21.75z"/></svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.44 8.6.44 8.6.44s6.88 0 8.6-.44a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Services Section ═══ -->
+  <section class="section services" id="services">
+    <div class="section-header reveal">
+      <span class="section-tag">What We Offer</span>
+      <h2 class="section-title">Services</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l1.912 5.813h6.138l-4.962 3.6 1.912 5.814L12 14.625l-4.962 3.6 1.912-5.814-4.962-3.6h6.138z"/></svg>
+        </div>
+        <h4>3D-Style Tattoos</h4>
+        <p>Hyper-realistic designs that pop off the skin with incredible depth</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <h4>Solid Blackwork</h4>
+        <p>Bold, heavy black designs with striking negative space compositions</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h4>Geometric & Mandala</h4>
+        <p>Sacred geometry patterns with perfect symmetry and precision</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </div>
+        <h4>Cover-ups & Reworks</h4>
+        <p>Transform old or unwanted tattoos into stunning new artworks</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </div>
+        <h4>Custom Design</h4>
+        <p>Fully personalized artwork crafted exclusively for your vision</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h4>Sleeve Tattoos</h4>
+        <p>Full and half sleeve masterpieces designed as cohesive art</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h4>Memorial Tattoos</h4>
+        <p>Meaningful tributes honoring loved ones with heartfelt artistry</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </div>
+        <h4>Dotwork & Fine Line</h4>
+        <p>Delicate precision work with thousands of intricate dots</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Testimonials Section ═══ -->
+  <section class="section testimonials" id="testimonials">
+    <div class="section-header reveal">
+      <span class="section-tag">Client Love</span>
+      <h2 class="section-title">Reviews</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="testimonials-track">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">
+          Amazing tattoo maker. The attention to detail is absolutely incredible. Every line is perfect, and the shading is flawless. I couldn't be happier with the result. Truly a master artist!
+        </div>
+        <div class="testimonial-author">
+          <div class="author-avatar">R</div>
+          <div>
+            <div class="author-name">Rahul K.</div>
+            <div class="author-source">Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">
+          Your tattoo is so unique and incredible. I came from Bhubaneswar specifically for Rinku's work and it was worth every kilometer. The studio is clean, professional, and the vibe is amazing.
+        </div>
+        <div class="testimonial-author">
+          <div class="author-avatar">S</div>
+          <div>
+            <div class="author-name">Sneha P.</div>
+            <div class="author-source">Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">
+          Completely good tattoo artist. Nice behaviour and nice work. He took his time to understand exactly what I wanted and delivered even more than I imagined. Highly recommended!
+        </div>
+        <div class="testimonial-author">
+          <div class="author-avatar">A</div>
+          <div>
+            <div class="author-name">Amit D.</div>
+            <div class="author-source">Google Review</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Booking Section ═══ -->
+  <section class="section booking" id="booking">
+    <div class="section-header reveal">
+      <span class="section-tag">Get Inked</span>
+      <h2 class="section-title">Book Your Session</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="booking-grid">
+      <form class="booking-form reveal-left" id="bookingForm">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" id="input-name" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number" id="input-phone" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email Address" id="input-email">
+        </div>
+        <div class="form-group">
+          <select id="input-service">
+            <option value="" disabled selected>Select Service</option>
+            <option value="3d">3D-Style Tattoos</option>
+            <option value="blackwork">Solid Blackwork</option>
+            <option value="geometric">Geometric & Mandala</option>
+            <option value="coverup">Cover-ups & Reworks</option>
+            <option value="custom">Custom Design</option>
+            <option value="sleeve">Sleeve Tattoos</option>
+            <option value="memorial">Memorial Tattoos</option>
+            <option value="dotwork">Dotwork & Fine Line</option>
+            <option value="tribal">Polynesian Tribal</option>
+            <option value="touchup">Tattoo Touch-up</option>
+            <option value="fullbody">Full-Body Tattoos</option>
+            <option value="aftercare">Tattoo Aftercare</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Tell us about your tattoo idea — placement, size, style, inspiration..." id="input-message"></textarea>
+        </div>
+        <button type="submit" class="btn-primary" id="submit-booking">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Send Request
+        </button>
+      </form>
+      <div class="booking-info reveal-right">
+        <h3>Let's Create<br>Something Timeless</h3>
+        <p>Ready to bring your vision to life? Reach out to us through any of these channels, or fill out the form and we'll get back to you within 24 hours.</p>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Call Us</div>
+            <div class="contact-value">+91 99375 09925</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Visit Us</div>
+            <div class="contact-value">Badsadak Rd, Dalaipara, Sambalpur, Odisha 768001</div>
+          </div>
+        </div>
+        <a href="https://wa.me/919937509925?text=Hi%20Rinku!%20I%27m%20interested%20in%20booking%20a%20tattoo%20session." target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.905L0 24l6.335-1.521A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75c-1.97 0-3.839-.517-5.47-1.482l-.392-.233-3.758.903.947-3.635-.256-.406A9.706 9.706 0 0 1 2.25 12 9.75 9.75 0 1 1 12 21.75z"/></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Footer ═══ -->
+  <footer class="footer" id="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Rinku Tattoo's<br>Studio</h3>
+        <p>Sambalpur's premier tattoo destination. Where your story becomes art — permanent, powerful, and personal.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.44 8.6.44 8.6.44s6.88 0 8.6-.44a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+          </a>
+          <a href="https://wa.me/919937509925" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Studio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#artist">Artist</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#booking">Book Session</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">3D Tattoos</a></li>
+          <li><a href="#services">Blackwork</a></li>
+          <li><a href="#services">Geometric</a></li>
+          <li><a href="#services">Sleeve Tattoos</a></li>
+          <li><a href="#services">Cover-ups</a></li>
+          <li><a href="#services">Tribal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Find Us</h4>
+        <div class="footer-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.123!2d83.9755!3d21.4669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDI4JzAwLjgiTiA4M8KwNTgnMzEuOCJF!5e0!3m2!1sen!2sin!4v1" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rinku Tattoo Studio Location"></iframe>
+        </div>
+        <div class="footer-hours">
+          <span class="hours-dot"></span>
+          Open · Closes 9 PM
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 Rinku Tattoo's Studio Sambalpur. All Rights Reserved.</span>
+      <span>Crafted with 🖤 in Sambalpur</span>
+    </div>
+  </footer>
+
+  <!-- ═══ Floating Instagram ═══ -->
+  <div class="ig-float">
+    <span class="ig-label">Follow us</span>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="ig-float-btn" aria-label="Follow on Instagram">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
